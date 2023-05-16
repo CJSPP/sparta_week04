@@ -113,8 +113,8 @@ function addHTML(itemDto) {
 }
 
 
-//파라미터로 전달받은 itemDto(JSON 형태의 문자열)는 자바스크립트가 자동적으로 JSON형태로 변환시킨다
-//따라서 JSON.stringify()를 한번 더 사용
+//파라미터로 전달받은 itemDto(문자열 타입)는 서버와 통신할 때 JSON으로 바꿔줘야 한다.
+//따라서 JSON.stringify()를 사용
 function addProduct(itemDto) {
     /**
      * modal 뜨게 하는 법: $('#container').addClass('active');
