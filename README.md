@@ -5,3 +5,4 @@
 2023.01.08 AWS를 통해 배포완료
 
 주소: http://myselectshop.shop
+(현재는 AWS 배포 중지)
